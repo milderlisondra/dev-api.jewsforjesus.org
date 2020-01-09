@@ -17,6 +17,7 @@ if( isset($_GET['limit']) && is_numeric($_GET['limit']) ){
 print $limit;
 $params = array('limit'=>$limit,'status'=>'Pending','order'=>'');
 $result = $idonate->get($params);
+
 $count_processed = 0;
 
 $infinity_obj = new Infinity();

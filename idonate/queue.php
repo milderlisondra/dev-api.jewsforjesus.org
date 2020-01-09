@@ -14,7 +14,7 @@ $limit = 10;
 if( isset($_GET['limit']) && is_numeric($_GET['limit']) ){
 	$limit = $_GET['limit'];
 }
-print $limit;
+
 $params = array('limit'=>$limit,'status'=>'Pending','order'=>'');
 $result = $idonate->get($params);
 

@@ -85,6 +85,7 @@ class Database{
 	}	
 	
 	protected function log_action( $data ){
+
 			extract($data);
 		    $stmt = $this->conn->prepare("INSERT INTO `".$this->hub_errors."` (action, message) VALUES (:action, :message)");
 			$stmt->bindValue(':action', $action);

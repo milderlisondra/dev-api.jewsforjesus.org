@@ -185,15 +185,12 @@ class Infinity extends SoapClient {
 			return $result->ID;
 			
 		}catch (Exception $f){
-
+$this->donate_hub->update(array("table_id"=>$QUEUEID,"status"=>"Error"));
 			$message = print_r($f, true) . "\r\n";
 			$message .= "QUEUEID " . $QUEUEID;
-			try{
-				$this->$donate_hub->log_action(array("action"=>"Failed Post to BBEC","message"=>$message));
-			}catch( PDOException $e ){
-				print 'error';
-			}
-			$this->donate_hub->update(array("table_id"=>$QUEUEID,"status"=>"Error"));
+			$log_file_name = 'log/BBEC-error-' . $QUEUEID . '-' . time() . '.log'; 
+			error_log($message, 3, $log_file_name);				
+
 			return 0;
 		}
 	}

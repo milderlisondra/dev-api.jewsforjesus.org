@@ -20,11 +20,26 @@ class Infinity extends SoapClient {
 			$options["password"]="Un1Ty17!"; 
 		}
 
-		if( $_SERVER['SERVER_NAME'] == 'localhost' ){
+/* 		if( $_SERVER['SERVER_NAME'] == 'localhost' ){
 			$wsdl = 'https://bbecrig05bo3.blackbaudhosting.com/17112_c45ea4a9-6acc-417a-9b46-03139f3c9575/AppFxWebService.asmx?wsdl'; // STAGING
 		}else{
 			$wsdl = 'https://bbisecrigabo3.blackbaudhosting.com/17112_ed77bf07-ecb8-4c6f-b258-5fa8f1749b33/AppFxWebService.asmx?wsdl'; // PRODUCTION
+		} */
+		
+		$server_identity = $_SERVER['SERVER_NAME'];
+		switch($server_identity){
+			case "localhost":
+			case "dev-api.jewsforjesus.org":
+				$wsdl = 'https://bbecrig05bo3.blackbaudhosting.com/17112_c45ea4a9-6acc-417a-9b46-03139f3c9575/AppFxWebService.asmx?wsdl';  // STAGING			
+				break;
+			case "api.jewsforjesus.org":
+				$wsdl = 'https://bbisecrigabo3.blackbaudhosting.com/17112_ed77bf07-ecb8-4c6f-b258-5fa8f1749b33/AppFxWebService.asmx?wsdl'; // PRODUCTION			
+				break;
+			default:
+				$wsdl = 'https://bbecrig05bo3.blackbaudhosting.com/17112_c45ea4a9-6acc-417a-9b46-03139f3c9575/AppFxWebService.asmx?wsdl';  // STAGING		
+				break;
 		}
+		
 		return parent::__construct($wsdl, $options); 
 	}
 
@@ -172,9 +187,7 @@ class Infinity extends SoapClient {
 
 
 			$result = $client->DataFormSave($params);
-/* 			print '<pre>';
-			print_r($result);
-			print '</pre>'; */
+
 			$message = "BBEC RETURNED GUID: " . $result->ID . "\r\n";
 			$message .= "QUEUEID " . $QUEUEID . "\r\n";
 			$message .= "POSTED DATA: " . "\r\n";

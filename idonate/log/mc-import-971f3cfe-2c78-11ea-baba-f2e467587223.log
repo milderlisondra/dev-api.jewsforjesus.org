@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:25:03.132668+00:00
+    [id] => 971f3cfe-2c78-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Dearborn
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => MI
+                    [street] => 9 Amherst Lane
+                    [street2] => Apt, Suite, Bldg. (optional)
+                    [title] => 
+                    [zip] => 48120
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 25
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Dearborn
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => MI
+                            [street] => 9 Amherst Lane
+                            [street2] => Apt, Suite, Bldg. (optional)
+                            [title] => 
+                            [zip] => 48120
+                        )
+
+                    [created] => 2016-05-15T14:06:10.915599+00:00
+                    [email] => Leavingalegacy7@gmail.com
+                    [firstname] => Kim
+                    [lastname] => Beane
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => America/New_York
+                    [title] => 
+                    [updated] => 2019-01-01T13:36:51.648241+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:25:02.862801+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $25.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 3638d5f2-7f36-4e17-ad10-bad9618457d8
+            [donor_paid_fee] => 
+            [email_opt_in] => 1
+            [embed] => 
+            [expiration_month] => 12
+            [expiration_year] => 2021
+            [external_tracking_id] => 62109156737
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 64ec1128-68e7-4c66-a1f4-f0b0163ac8e2
+            [last_four_digits] => 9214
+            [net_proceeds] => 25
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => a75ccbe5-7552-4ab5-8b61-540835fe29a9
+            [recurring_count] => 13
+            [reference_code] => ap18e12em15a
+            [sale_price] => 
+            [schedule_id] => 7c409ad8-1db4-4e43-a607-d3e4de46e2bd
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 64ec1128-68e7-4c66-a1f4-f0b0163ac8e2
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 970-30470-yearend_campaign
+                    [content] => email_subs_active-email_15
+                    [medium] => email
+                    [source] => mailchimp
+                    [term] => 1
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

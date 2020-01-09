@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:37:04.936251+00:00
+    [id] => 4559b8c0-2c7a-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => West Boylston
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => MA
+                    [street] => 169 Hillside Village Dr
+                    [street2] => 
+                    [title] => 
+                    [zip] => 01583
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => West Boylston
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => MA
+                            [street] => 169 Hillside Village Dr
+                            [street2] => 
+                            [title] => 
+                            [zip] => 01583
+                        )
+
+                    [created] => 2018-09-28T21:30:06.983253+00:00
+                    [email] => ambuck1@townisp.com
+                    [firstname] => Mary
+                    [lastname] => Buckley
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-09-28T21:30:06.983253+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:37:04.568703+00:00
+            [custom_note_1] => I have a special request or comment = undefined
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 70c895d6-f8a6-42cb-bfd6-f055c755769d
+            [donor_paid_fee] => 
+            [email_opt_in] => 1
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109178981
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 0e8de13f-33ab-495a-9bc0-f24d9a17a257
+            [last_four_digits] => 
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 60bc9498-c458-4982-904e-b012b8629b16
+            [recurring_count] => 16
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 38d85986-887b-4a81-bb03-97a2bf0a8989
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => 0e8de13f-33ab-495a-9bc0-f24d9a17a257
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

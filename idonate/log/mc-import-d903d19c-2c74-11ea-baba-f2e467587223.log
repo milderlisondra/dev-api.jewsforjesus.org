@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T08:58:15.695647+00:00
+    [id] => d903d19c-2c74-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Alachua
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => FL
+                    [street] => 8008 NW 184th Drive
+                    [street2] => 
+                    [title] => 
+                    [zip] => 32615
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 100
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Alachua
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => FL
+                            [street] => 8008 NW 184th Drive
+                            [street2] => 
+                            [title] => 
+                            [zip] => 32615
+                        )
+
+                    [created] => 2019-12-01T22:28:50.200312+00:00
+                    [email] => elizmamercier@gmail.com
+                    [firstname] => Elizma
+                    [lastname] => Mercier
+                    [middlename] => 
+                    [phone] => 3522835883
+                    [timezone] => America/New_York
+                    [title] => 
+                    [updated] => 2019-12-01T22:28:51.220104+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T08:58:15.408278+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $100.00
+            [designation] => Array
+                (
+                    [code] => jebran
+                    [fund_id] => jebran
+                    [id] => 87cac11f-f00b-4b8f-b18e-81a7e9d18ab9
+                    [title] => Jerusalem Branch
+                )
+
+            [designation_note] => 
+            [donor_id] => 853286dc-172b-4b61-828f-47b1754e9737
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109116746
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 6d9e46a1-c105-4418-84c3-c8bda974e76e
+            [last_four_digits] => 
+            [net_proceeds] => 100
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 24c8fdda-d5be-4b90-a9ba-d1eb1dc2a162
+            [recurring_count] => 2
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => e215a7b4-c0b0-43d4-85ee-60623cf8742b
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => 6d9e46a1-c105-4418-84c3-c8bda974e76e
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

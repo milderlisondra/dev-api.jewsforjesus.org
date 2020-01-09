@@ -1,0 +1,123 @@
+Array
+(
+    [created] => 2019-12-19T17:05:31.583855+00:00
+    [id] => c3979502-2281-11ea-a460-52f02d9e6ae2
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Oxford
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => MS
+                    [street] => 220 Greenbriar Loop
+                    [street2] => 
+                    [title] => Donation Address
+                    [zip] => 38655
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 1000
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Oxford
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => MS
+                            [street] => 220 Greenbriar Loop
+                            [street2] => 
+                            [title] => 
+                            [zip] => 38655
+                        )
+
+                    [created] => 2019-12-19T17:05:30.334601+00:00
+                    [email] => eyereflection6849@gmail.com
+                    [firstname] => David and Margaret
+                    [lastname] => MacMillian
+                    [middlename] => 
+                    [phone] => (321) 576-5780
+                    [timezone] => America/Los_Angeles
+                    [title] => 
+                    [updated] => 2019-12-19T17:05:31.135761+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2019-12-19T17:05:31.171306+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $1,000.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 467a85ea-360e-4c43-b08e-1968f07484e6
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => Array
+                (
+                    [id] => 8bd8823c-8a50-4f37-839d-ccb0938f3b84
+                    [name] => Offline
+                )
+
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62090662462
+            [final_date] => 2019-12-19T00:00:00+00:00
+            [frequency] => Once
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => a8ea5ef9-1327-48dc-a818-37bbbb81762b
+            [last_four_digits] => 
+            [net_proceeds] => 1000
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => b83b168e-cd36-4981-971b-ea6577999dd9
+            [recurring_count] => 
+            [reference_code] =>  STPHONE
+            [sale_price] => 
+            [schedule_id] => 
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => a8ea5ef9-1327-48dc-a818-37bbbb81762b
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

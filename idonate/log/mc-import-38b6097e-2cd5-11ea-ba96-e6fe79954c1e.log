@@ -1,0 +1,123 @@
+Array
+(
+    [created] => 2020-01-01T20:28:07.933215+00:00
+    [id] => 38b6097e-2cd5-11ea-ba96-e6fe79954c1e
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Aptos
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => CA
+                    [street] => 625 Cedar Street
+                    [street2] => 
+                    [title] => Donation Address
+                    [zip] => 95003
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 150
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Aptos
+                            [country] => 
+                            [country_code] => 
+                            [country_name] => 
+                            [state] => CA
+                            [street] => 625 Cedar St.
+                            [street2] => 
+                            [title] => 
+                            [zip] => 95003
+                        )
+
+                    [created] => 2018-11-02T23:42:02.363115+00:00
+                    [email] => chiaramontex5@yahoo.com
+                    [firstname] => Jennifer
+                    [lastname] => Chiaramonte
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-01-08T20:26:29.800382+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T20:28:07.549093+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $150.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 80a0170f-6e07-4995-8714-028b989650ad
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => Array
+                (
+                    [id] => 9f092f15-ba22-4fdf-90c7-996c4b97f9d4
+                    [name] => 1905 New Main DF v2
+                )
+
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62110415968
+            [final_date] => 2020-01-01T00:00:00+00:00
+            [frequency] => Once
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 77596d9c-3855-4916-a600-336400644933
+            [last_four_digits] => 
+            [net_proceeds] => 150
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 495c8e88-6a90-4a27-b4a6-ba4080131b58
+            [recurring_count] => 
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => 77596d9c-3855-4916-a600-336400644933
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

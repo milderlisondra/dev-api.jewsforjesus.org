@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:30:39.972588+00:00
+    [id] => 5fe4ef80-2c79-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Lansing
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => MI
+                    [street] => 501 S Holmes St
+                    [street2] => 
+                    [title] => 
+                    [zip] => 48912
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Lansing
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => MI
+                            [street] => 501 S Holmes St
+                            [street2] => 
+                            [title] => 
+                            [zip] => 48912
+                        )
+
+                    [created] => 2019-05-29T23:27:50.839425+00:00
+                    [email] => donor-d182d07c-3f7e-4ae0-b8c8-ee03a95801f2@idonate.com
+                    [firstname] => Elida
+                    [lastname] => Sepulveda
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-05-29T23:27:50.839425+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:30:39.493569+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => d182d07c-3f7e-4ae0-b8c8-ee03a95801f2
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 10
+            [expiration_year] => 2021
+            [external_tracking_id] => 62109165354
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => d344f2dd-530c-479e-88f9-65cfbe8e7490
+            [last_four_digits] => 2096
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 9d279450-65a5-4067-a48f-b2bfcdb3bf1c
+            [recurring_count] => 8
+            [reference_code] =>  TI1903WD9C
+            [sale_price] => 
+            [schedule_id] => 052aa8b4-6f16-437f-94a7-4b9d0d8fcdb5
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => d344f2dd-530c-479e-88f9-65cfbe8e7490
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

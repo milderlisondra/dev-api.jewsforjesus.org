@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:14:37.472108+00:00
+    [id] => 2233050c-2c77-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Miamisburg 
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => OH
+                    [street] => 1910 Amelia Court
+                    [street2] => 
+                    [title] => 
+                    [zip] => 45342
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 30
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Miamisburg 
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => OH
+                            [street] => 1910 Amelia Court
+                            [street2] => 
+                            [title] => 
+                            [zip] => 45342
+                        )
+
+                    [created] => 2018-11-14T06:06:40.971783+00:00
+                    [email] => robert.meyer@earthlink.net
+                    [firstname] => Elizabeth 
+                    [lastname] => Meyer 
+                    [middlename] => 
+                    [phone] => 9373361133
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-06-26T21:24:19.027737+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:14:37.173920+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $30.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 91dc1467-8dcc-4675-bb92-5871ae571111
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 6
+            [expiration_year] => 2021
+            [external_tracking_id] => 62109142000
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => a35e5b51-1e9f-44c3-85bd-1dca00dc5a3c
+            [last_four_digits] => 8550
+            [net_proceeds] => 30
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 6dc38148-5695-4b97-982f-4d0711475966
+            [recurring_count] => 7
+            [reference_code] => nl201907
+            [sale_price] => 
+            [schedule_id] => c128d2ff-4a4e-412a-b74c-b12b9f7255ca
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => a35e5b51-1e9f-44c3-85bd-1dca00dc5a3c
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => nl201907
+                    [content] => donate_link
+                    [medium] => print
+                    [source] => newsletter
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

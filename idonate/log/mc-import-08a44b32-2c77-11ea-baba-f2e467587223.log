@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:13:54.593700+00:00
+    [id] => 08a44b32-2c77-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Celina
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => OH
+                    [street] => 706 Devonshire Dr. Apt A
+                    [street2] => 
+                    [title] => 
+                    [zip] => 45822
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 35
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Celina
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => OH
+                            [street] => 706 Devonshire Dr. Apt A
+                            [street2] => 
+                            [title] => 
+                            [zip] => 45822
+                        )
+
+                    [created] => 2018-10-01T17:40:35.269074+00:00
+                    [email] => rsutter63@aol.com
+                    [firstname] => Ron
+                    [lastname] => Sutter
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => America/Los_Angeles
+                    [title] => 
+                    [updated] => 2019-12-31T19:10:36.285297+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:13:54.436994+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $35.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => e41b1fd7-fc02-4546-bcfe-7b1be5a62e3a
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109140944
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => a782bf70-cb67-4cfd-bf20-46e19232a122
+            [last_four_digits] => 
+            [net_proceeds] => 35
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => e93ad12e-7189-4168-a30f-7e0d268f45d0
+            [recurring_count] => 16
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 65d9c0dc-a123-4de1-9294-02415195c6f7
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => a782bf70-cb67-4cfd-bf20-46e19232a122
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

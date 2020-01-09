@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:39:59.506771+00:00
+    [id] => ad671444-2c7a-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Beavercreek
+                    [country] => 
+                    [country_code] => 
+                    [country_name] => 
+                    [state] => Ohio
+                    [street] => 1871 Hildreth Drive
+                    [street2] => 
+                    [title] => 
+                    [zip] => 45432-1871
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Beavercreek
+                            [country] => 
+                            [country_code] => 
+                            [country_name] => 
+                            [state] => Ohio
+                            [street] => 1871 Hildreth Drive
+                            [street2] => 
+                            [title] => 
+                            [zip] => 45432-1871
+                        )
+
+                    [created] => 2018-10-01T17:40:35.269074+00:00
+                    [email] => gls36ace@woh.rr.com
+                    [firstname] => Gregory
+                    [lastname] => Shaffer
+                    [middlename] => 
+                    [phone] => 937-427-2024
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-10-01T17:40:35.269074+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:39:59.171274+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => e398da64-9505-464e-ad81-f3f5cf99d00c
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109186301
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 14aeeb0c-6c7c-462a-858c-b1b85765fc20
+            [last_four_digits] => 
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => cec46b98-7f4b-46cc-8e0d-78eb30f75b62
+            [recurring_count] => 16
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 7b26fcf6-a9ed-4f3c-ab52-2677b1a71075
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 14aeeb0c-6c7c-462a-858c-b1b85765fc20
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

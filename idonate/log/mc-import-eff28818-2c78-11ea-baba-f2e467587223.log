@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:27:32.156854+00:00
+    [id] => eff28818-2c78-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Glendale
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => CA
+                    [street] => 322 N Isabel St
+                    [street2] => Apt # 6
+                    [title] => 
+                    [zip] => 91206
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 100
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Glendale
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => CA
+                            [street] => 322 N Isabel St
+                            [street2] => Apt # 6
+                            [title] => 
+                            [zip] => 91206
+                        )
+
+                    [created] => 2019-02-23T07:12:24.578272+00:00
+                    [email] => hacopian91206@yahoo.com
+                    [firstname] => Shoshana
+                    [lastname] => Hacopian
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-02-23T07:12:24.937404+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:27:31.864866+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $100.00
+            [designation] => Array
+                (
+                    [code] => jebran
+                    [fund_id] => jebran
+                    [id] => 87cac11f-f00b-4b8f-b18e-81a7e9d18ab9
+                    [title] => Jerusalem Branch
+                )
+
+            [designation_note] => 
+            [donor_id] => 66b9a051-16ec-4414-b192-55d8974301da
+            [donor_paid_fee] => 
+            [email_opt_in] => 1
+            [embed] => 
+            [expiration_month] => 7
+            [expiration_year] => 2023
+            [external_tracking_id] => 62109160563
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 52c8f594-577a-47d2-94e8-f840ac3cb22d
+            [last_four_digits] => 7951
+            [net_proceeds] => 100
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 9ac4c4e0-8bc1-4859-8672-859511fd3072
+            [recurring_count] => 11
+            [reference_code] => STNETDON
+            [sale_price] => 
+            [schedule_id] => 6d46df8f-ea22-4c0e-86e8-80c7ed715fb7
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 52c8f594-577a-47d2-94e8-f840ac3cb22d
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

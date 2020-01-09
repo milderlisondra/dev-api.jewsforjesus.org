@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:27:39.517485+00:00
+    [id] => f455aca0-2c78-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Edinburg
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => TX
+                    [street] => 1801 N McCall Rd
+                    [street2] => 
+                    [title] => 
+                    [zip] => 78541
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 300
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Edinburg
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => TX
+                            [street] => 1801 N McCall Rd
+                            [street2] => 
+                            [title] => 
+                            [zip] => 78541
+                        )
+
+                    [created] => 2019-02-25T22:34:40.521881+00:00
+                    [email] => donor-a22d634b-ca0e-4248-9877-a61012856d3a@idonate.com
+                    [firstname] => James and Fern
+                    [lastname] => McClargherty
+                    [middlename] => 
+                    [phone] => (956) 383-4498
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-02-25T22:34:40.521881+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:27:39.277558+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $300.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => a22d634b-ca0e-4248-9877-a61012856d3a
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 4
+            [expiration_year] => 2023
+            [external_tracking_id] => 62109160745
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 4395918e-942d-4dce-9b94-6704c8d43f3b
+            [last_four_digits] => 1618
+            [net_proceeds] => 300
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 96f22800-b5df-44a1-81e3-c1a0ce3ea935
+            [recurring_count] => 11
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 6aebeaeb-68d0-4d85-8362-5d42b61b9012
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 4395918e-942d-4dce-9b94-6704c8d43f3b
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

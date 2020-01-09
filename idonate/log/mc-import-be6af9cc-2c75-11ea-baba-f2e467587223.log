@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:04:40.569943+00:00
+    [id] => be6af9cc-2c75-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Phoenix
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => AZ
+                    [street] => 1504 E Villa Maria Dr
+                    [street2] => 
+                    [title] => 
+                    [zip] => 85022
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 30
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Phoenix
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => AZ
+                            [street] => 1504 E Villa Maria Dr
+                            [street2] => 
+                            [title] => 
+                            [zip] => 85022
+                        )
+
+                    [created] => 2018-10-01T17:40:35.269074+00:00
+                    [email] => unknown-11910@jews-for-jesus.org
+                    [firstname] => S. V.
+                    [lastname] => Glasco
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => America/Los_Angeles
+                    [title] => 
+                    [updated] => 2019-08-23T17:50:44.307273+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:04:40.313039+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $30.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 9cb7bded-fd9c-4a97-92f6-f85f849d5af1
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 3
+            [expiration_year] => 2023
+            [external_tracking_id] => 62109127150
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => a99d53a6-8231-483f-bb17-1b88e7e7b7a9
+            [last_four_digits] => 5290
+            [net_proceeds] => 30
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => a9176177-67d5-4785-90ad-bcdab686a7ee
+            [recurring_count] => 5
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 1ae9e937-2e6d-4ed3-9074-d1d9589b8929
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => a99d53a6-8231-483f-bb17-1b88e7e7b7a9
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

@@ -1,0 +1,123 @@
+Array
+(
+    [created] => 2020-01-01T17:26:32.027742+00:00
+    [id] => da3ecdcc-2cbb-11ea-8d9e-42b3da8e65bd
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => BUFORD
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => GA
+                    [street] => 2752 KING ARTHUR CT
+                    [street2] => 
+                    [title] => Donation Address
+                    [zip] => 30519-3932
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => BUFORD
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => GA
+                            [street] => 2752 KING ARTHUR CT
+                            [street2] => 
+                            [title] => 
+                            [zip] => 30519-3932
+                        )
+
+                    [created] => 2020-01-01T17:26:28.997860+00:00
+                    [email] => roxiecarroll.rc@gmail.com
+                    [firstname] => Roxie
+                    [lastname] => Carroll
+                    [middlename] => 
+                    [phone] => 6787650723
+                    [timezone] => America/New_York
+                    [title] => 
+                    [updated] => 2020-01-01T17:26:31.433746+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T17:26:31.459029+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => f1e9970d-7f9b-497c-a63a-96e64799945d
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => Array
+                (
+                    [id] => 9f092f15-ba22-4fdf-90c7-996c4b97f9d4
+                    [name] => 1905 New Main DF v2
+                )
+
+            [expiration_month] => 1
+            [expiration_year] => 2022
+            [external_tracking_id] => 62110155181
+            [final_date] => 2020-01-01T00:00:00+00:00
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 0c903074-6feb-4683-87e3-64109646cb46
+            [last_four_digits] => 8746
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => c3f9997b-637d-4d2e-b2b7-0e7e46a7f4d1
+            [recurring_count] => 1
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 7b4e4fd9-c1c3-439c-a2a0-2e644de0b2e4
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 0c903074-6feb-4683-87e3-64109646cb46
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

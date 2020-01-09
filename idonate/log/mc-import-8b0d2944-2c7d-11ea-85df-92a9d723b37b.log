@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T10:00:30.365158+00:00
+    [id] => 8b0d2944-2c7d-11ea-85df-92a9d723b37b
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Ayer
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => MA
+                    [street] => 9 Union St
+                    [street2] => 
+                    [title] => 
+                    [zip] => 01432
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 20
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Ayer
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => MA
+                            [street] => 9 Union St
+                            [street2] => 
+                            [title] => 
+                            [zip] => 01432
+                        )
+
+                    [created] => 2019-11-21T21:08:49.035850+00:00
+                    [email] => rckaking@gmail.com
+                    [firstname] => Karen A.
+                    [lastname] => King
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-12-04T19:49:35.099012+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T10:00:29.986740+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $20.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 0c248120-6b11-4822-bce5-aa1cbe6b9eef
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109233808
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => f05488de-5a0e-4a29-93d4-2fa072e567b7
+            [last_four_digits] => 
+            [net_proceeds] => 20
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => f3197fe3-b932-4afd-82a7-94696305c038
+            [recurring_count] => 2
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 1e1e7253-18da-4c4f-81d3-0c295b8aa7db
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => f05488de-5a0e-4a29-93d4-2fa072e567b7
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

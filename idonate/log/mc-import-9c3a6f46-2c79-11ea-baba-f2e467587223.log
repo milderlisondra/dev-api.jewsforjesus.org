@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:32:21.196210+00:00
+    [id] => 9c3a6f46-2c79-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Keyser
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => WV
+                    [street] => 338 Apple Ridge Lane
+                    [street2] => 
+                    [title] => 
+                    [zip] => 26726
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 3
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Keyser
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => WV
+                            [street] => 338 Apple Ridge Lane
+                            [street2] => 
+                            [title] => 
+                            [zip] => 26726
+                        )
+
+                    [created] => 2018-03-09T04:08:46.440162+00:00
+                    [email] => charlesgulbronson@yahoo.com
+                    [firstname] => Charles
+                    [lastname] => Gulbronson
+                    [middlename] => 
+                    [phone] => 8175287423
+                    [timezone] => America/New_York
+                    [title] => 
+                    [updated] => 2019-07-01T21:34:18.287444+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:32:20.895288+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $3.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 6a9eacac-4f16-4883-a4ac-7ba8b74481de
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 6
+            [expiration_year] => 2022
+            [external_tracking_id] => 62109168210
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 59e921ce-5a2c-4637-9f10-71a1c74b450b
+            [last_four_digits] => 9673
+            [net_proceeds] => 3
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 621a2152-f724-4436-87fc-890fa10295e5
+            [recurring_count] => 9
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 5521e399-22f8-4efa-9276-65ff1ec2c766
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 59e921ce-5a2c-4637-9f10-71a1c74b450b
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

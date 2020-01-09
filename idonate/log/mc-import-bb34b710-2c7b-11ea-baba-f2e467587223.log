@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:47:32.161553+00:00
+    [id] => bb34b710-2c7b-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Long Beach
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => CA
+                    [street] => 4826 Sunfield Ave
+                    [street2] => 
+                    [title] => 
+                    [zip] => 90808
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 20
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Long Beach
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => CA
+                            [street] => 4826 Sunfield Ave
+                            [street2] => 
+                            [title] => 
+                            [zip] => 90808
+                        )
+
+                    [created] => 2019-03-18T22:06:28.527124+00:00
+                    [email] => quebonitabritt@yahoo.com
+                    [firstname] => Brittney
+                    [lastname] => McCoy
+                    [middlename] => 
+                    [phone] => 5622292029
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-03-18T22:06:29.140603+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:47:31.849677+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $20.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 038d85fe-8b1c-479f-9765-e58da41d32a9
+            [donor_paid_fee] => 
+            [email_opt_in] => 1
+            [embed] => 
+            [expiration_month] => 1
+            [expiration_year] => 2020
+            [external_tracking_id] => 62109204678
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => c25aec73-adf1-45c7-9d3d-7942f2eb26e3
+            [last_four_digits] => 0402
+            [net_proceeds] => 20
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => e2117a87-c54d-4b0b-a974-20214ee91272
+            [recurring_count] => 10
+            [reference_code] => STNETDON
+            [sale_price] => 
+            [schedule_id] => 79a3d478-8380-49a8-90fd-dd857e601afe
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => c25aec73-adf1-45c7-9d3d-7942f2eb26e3
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

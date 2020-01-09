@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:46:52.085233+00:00
+    [id] => a3518e48-2c7b-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Pawnee
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => IL
+                    [street] => 910 Lincoln St
+                    [street2] => 
+                    [title] => 
+                    [zip] => 62558
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Pawnee
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => IL
+                            [street] => 910 Lincoln St
+                            [street2] => 
+                            [title] => 
+                            [zip] => 62558
+                        )
+
+                    [created] => 2018-09-28T23:44:32.051011+00:00
+                    [email] => teacher42103@yahoo.com
+                    [firstname] => Carol A.
+                    [lastname] => Nichols
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-09-28T23:44:32.280965+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:46:51.790775+00:00
+            [custom_note_1] => I have a special request or comment = undefined
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 1a99a5e1-f349-47f0-a908-13516436c825
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 1
+            [expiration_year] => 2020
+            [external_tracking_id] => 62109203190
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => bea9af44-9ddb-4437-ac5e-69ff7ce7eb1d
+            [last_four_digits] => 7627
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 7d6f2deb-2ab3-4b5a-a765-1112cf06cbe8
+            [recurring_count] => 16
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 10e50df8-6417-4f9f-98bb-a1b8f396f543
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => bea9af44-9ddb-4437-ac5e-69ff7ce7eb1d
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

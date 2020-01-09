@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:37:52.638383+00:00
+    [id] => 61c87f46-2c7a-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Shepherd
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => TX
+                    [street] => 411
+                    [street2] => hoot rd
+                    [title] => 
+                    [zip] => 77371
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Shepherd
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => TX
+                            [street] => 411
+                            [street2] => hoot rd
+                            [title] => 
+                            [zip] => 77371
+                        )
+
+                    [created] => 2018-12-23T00:34:18.219126+00:00
+                    [email] => jamestalbertjr@gmail.com
+                    [firstname] => james
+                    [lastname] => talbert
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-12-23T00:34:18.402280+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:37:52.379507+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => isbran
+                    [fund_id] => isbran
+                    [id] => 482bbdf9-8493-4119-b47c-75965d285dd0
+                    [title] => Israel (Tel Aviv) Branch
+                )
+
+            [designation_note] => 
+            [donor_id] => ce627697-ae96-4897-8959-d3ecb161ac52
+            [donor_paid_fee] => 
+            [email_opt_in] => 1
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109180847
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 91ef5999-ad4a-479c-b4d5-f264b16b9ece
+            [last_four_digits] => 
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => c443d9d9-dc63-4532-8540-85fed51819a6
+            [recurring_count] => 13
+            [reference_code] => ap18e12em9a
+            [sale_price] => 
+            [schedule_id] => cfc45212-ac30-4082-8c04-f6f8da173e4d
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => 91ef5999-ad4a-479c-b4d5-f264b16b9ece
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 970-30470-yearend_campaign
+                    [content] => email_subs_active-email_9
+                    [medium] => email
+                    [source] => mailchimp
+                    [term] => 1
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

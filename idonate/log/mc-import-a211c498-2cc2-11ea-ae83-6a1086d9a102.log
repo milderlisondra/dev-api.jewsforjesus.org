@@ -1,0 +1,123 @@
+Array
+(
+    [created] => 2020-01-01T18:15:04.257272+00:00
+    [id] => a211c498-2cc2-11ea-ae83-6a1086d9a102
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => oneonta
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => NY
+                    [street] => 5692 state hwy 7
+                    [street2] => 
+                    [title] => Donation Address
+                    [zip] => 13820
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 25
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => oneonta
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => NY
+                            [street] => 5692 state hwy 7
+                            [street2] => 
+                            [title] => 
+                            [zip] => 13820
+                        )
+
+                    [created] => 2020-01-01T18:15:01.461495+00:00
+                    [email] => shirl27moore@yahoo.com
+                    [firstname] => gary and shirley
+                    [lastname] => moore
+                    [middlename] => 
+                    [phone] => 6072674925
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2020-01-01T18:15:03.832088+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T18:15:03.860702+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $25.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 803000f7-98a6-4fe6-a054-28c52ffc2892
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => Array
+                (
+                    [id] => 9f092f15-ba22-4fdf-90c7-996c4b97f9d4
+                    [name] => 1905 New Main DF v2
+                )
+
+            [expiration_month] => 7
+            [expiration_year] => 2022
+            [external_tracking_id] => 62110230166
+            [final_date] => 2020-01-01T00:00:00+00:00
+            [frequency] => Once
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => cc337a3f-f0b7-4561-a87d-4281ef3a6e6d
+            [last_four_digits] => 9958
+            [net_proceeds] => 25
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 620e59e6-38e4-4ccd-8ec3-7618e0e52a8f
+            [recurring_count] => 
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => cc337a3f-f0b7-4561-a87d-4281ef3a6e6d
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

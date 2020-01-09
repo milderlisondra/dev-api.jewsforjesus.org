@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:36:00.301935+00:00
+    [id] => 1ed3512a-2c7a-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => AUSTIN
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => TX
+                    [street] => 801 Waterfall Way
+                    [street2] => 
+                    [title] => 
+                    [zip] => 78753
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 35
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => AUSTIN
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => TX
+                            [street] => 801 Waterfall Way
+                            [street2] => 
+                            [title] => 
+                            [zip] => 78753
+                        )
+
+                    [created] => 2018-10-01T17:40:35.269074+00:00
+                    [email] => tarnold2826@gmail.com
+                    [firstname] => Terry
+                    [lastname] => Arnold
+                    [middlename] => 
+                    [phone] => 2144975399
+                    [timezone] => America/Chicago
+                    [title] => 
+                    [updated] => 2019-12-13T21:16:10.881045+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:35:59.939203+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $35.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 9e1f2c8a-b82c-4dde-bc43-7c72d1ddd3f8
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 10
+            [expiration_year] => 2022
+            [external_tracking_id] => 62109176509
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => e9caeddd-c6f5-43fa-b205-03173de82531
+            [last_four_digits] => 7486
+            [net_proceeds] => 35
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => d883a27b-85f0-468c-b73b-e43ba636ef1d
+            [recurring_count] => 7
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 34661f10-66ef-4e09-b12e-a03bd3c94ce6
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => e9caeddd-c6f5-43fa-b205-03173de82531
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

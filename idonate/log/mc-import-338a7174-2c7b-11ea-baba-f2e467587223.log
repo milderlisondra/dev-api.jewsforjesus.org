@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:43:44.553246+00:00
+    [id] => 338a7174-2c7b-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Hemet
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => CA
+                    [street] => 560 Tewell Dr
+                    [street2] => 
+                    [title] => 
+                    [zip] => 92545
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 35
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Hemet
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => CA
+                            [street] => 560 Tewell Dr
+                            [street2] => 
+                            [title] => 
+                            [zip] => 92545
+                        )
+
+                    [created] => 2019-07-31T23:17:42.431512+00:00
+                    [email] => donor-4e283b46-84c8-4e1b-89ee-6c6e06075726@idonate.com
+                    [firstname] => Harold L.
+                    [lastname] => Rowden
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-07-31T23:17:42.431512+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:43:44.320374+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $35.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 4e283b46-84c8-4e1b-89ee-6c6e06075726
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 3
+            [expiration_year] => 2022
+            [external_tracking_id] => 62109194912
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 8f087b76-d32c-405b-bbdf-bb6023d2675d
+            [last_four_digits] => 7065
+            [net_proceeds] => 35
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 67950b9d-65db-4220-85c7-2d8e778a34fa
+            [recurring_count] => 6
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 3ef36787-c144-4d4d-a261-2a08a90bcefb
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 8f087b76-d32c-405b-bbdf-bb6023d2675d
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

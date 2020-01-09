@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:51:37.811032+00:00
+    [id] => 4d9fd9a4-2c7c-11ea-85df-92a9d723b37b
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Caryville
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => FL
+                    [street] => 3132 Pate Pond Rd
+                    [street2] => 
+                    [title] => 
+                    [zip] => 32427
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 25
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Caryville
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => FL
+                            [street] => 3132 Pate Pond Rd
+                            [street2] => 
+                            [title] => 
+                            [zip] => 32427
+                        )
+
+                    [created] => 2019-10-01T05:36:55.818573+00:00
+                    [email] => bbhuskey@gmail.com
+                    [firstname] => Wm and Rebecca
+                    [lastname] => Huskey
+                    [middlename] => 
+                    [phone] => 8507689279
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-10-01T05:36:56.136584+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:51:37.534176+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $25.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => e1383c04-0dbe-4f16-abd2-228fc5d571e0
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 3
+            [expiration_year] => 2023
+            [external_tracking_id] => 62109214149
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => db22d7dc-1e76-4a10-8f47-be3f00728843
+            [last_four_digits] => 2821
+            [net_proceeds] => 25
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 9cec07d9-702c-41f2-a7d5-ac01210224dc
+            [recurring_count] => 4
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 25b1c602-933e-46f4-af61-2583bbdbff6f
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => db22d7dc-1e76-4a10-8f47-be3f00728843
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

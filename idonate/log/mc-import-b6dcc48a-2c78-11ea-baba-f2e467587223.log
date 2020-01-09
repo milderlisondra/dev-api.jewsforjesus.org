@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:25:56.384090+00:00
+    [id] => b6dcc48a-2c78-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Bellville
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => OH
+                    [street] => 210 Main St
+                    [street2] => 
+                    [title] => 
+                    [zip] => 44813
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Bellville
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => OH
+                            [street] => 210 Main St
+                            [street2] => 
+                            [title] => 
+                            [zip] => 44813
+                        )
+
+                    [created] => 2018-11-29T23:53:21.808404+00:00
+                    [email] => donor-e046c4da-c2c8-4172-8b56-d9bad6c984e6@idonate.com
+                    [firstname] => Craig & Lisa
+                    [lastname] => Dotson
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-11-29T23:53:21.808404+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:25:56.186468+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => e046c4da-c2c8-4172-8b56-d9bad6c984e6
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109158132
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 07aacd56-822d-4cdb-91d6-fbda8a470e7f
+            [last_four_digits] => 
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 546410d3-4205-4f28-8caa-f8d3bdb68b09
+            [recurring_count] => 14
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 94537f19-71ed-4f13-8985-f140c7eb242f
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => echeck
+            [transaction_set_id] => 07aacd56-822d-4cdb-91d6-fbda8a470e7f
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

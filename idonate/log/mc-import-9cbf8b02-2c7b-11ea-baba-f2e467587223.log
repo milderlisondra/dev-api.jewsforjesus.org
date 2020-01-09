@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:46:41.061995+00:00
+    [id] => 9cbf8b02-2c7b-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => West Sacramento
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => CA
+                    [street] => 1275 Milano Dr Unit 6
+                    [street2] => 
+                    [title] => 
+                    [zip] => 95691
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => West Sacramento
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => CA
+                            [street] => 1275 Milano Dr Unit 6
+                            [street2] => 
+                            [title] => 
+                            [zip] => 95691
+                        )
+
+                    [created] => 2018-11-27T20:37:06.428650+00:00
+                    [email] => donor-546e4572-959b-4707-a147-655810acefc6@idonate.com
+                    [firstname] => Charlene
+                    [lastname] => Wardlow
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-11-27T20:37:06.428650+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:46:40.689792+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 546e4572-959b-4707-a147-655810acefc6
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 8
+            [expiration_year] => 2024
+            [external_tracking_id] => 62109202741
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 3eb8a051-0021-4e31-9375-9411ee7daf48
+            [last_four_digits] => 1055
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => eea4086a-c042-4466-b5df-67ab47ade322
+            [recurring_count] => 13
+            [reference_code] =>  STNETREC
+            [sale_price] => 
+            [schedule_id] => 29ee005e-3b12-44e9-adfa-769a64952346
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 3eb8a051-0021-4e31-9375-9411ee7daf48
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

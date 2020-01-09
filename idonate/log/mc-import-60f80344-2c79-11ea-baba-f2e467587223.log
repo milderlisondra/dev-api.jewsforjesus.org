@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:30:41.775319+00:00
+    [id] => 60f80344-2c79-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Massapequa
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => NY
+                    [street] => 7 Rutland Rd
+                    [street2] => 
+                    [title] => 
+                    [zip] => 11758
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => discover
+            [check_number] => 
+            [client_proceeds] => 25
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Massapequa
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => NY
+                            [street] => 7 Rutland Rd
+                            [street2] => 
+                            [title] => 
+                            [zip] => 11758
+                        )
+
+                    [created] => 2019-05-29T23:32:26.581313+00:00
+                    [email] => upham7@optonline.net
+                    [firstname] => Constance J.
+                    [lastname] => Upham
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2019-05-29T23:32:26.883971+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:30:41.536435+00:00
+            [custom_note_1] => I have a special request or comment = 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $25.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 1f250294-3000-4975-8884-c6d49e625250
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 2
+            [expiration_year] => 2022
+            [external_tracking_id] => 62109165408
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 1310d159-1659-4f08-a126-1f16e6ba8094
+            [last_four_digits] => 5512
+            [net_proceeds] => 25
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => faa6393e-6597-44b6-8dab-6bbc33872b53
+            [recurring_count] => 8
+            [reference_code] =>  TI1904JLDD
+            [sale_price] => 
+            [schedule_id] => 66ad581c-3b39-4a53-9371-0e4835d06798
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 1310d159-1659-4f08-a126-1f16e6ba8094
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

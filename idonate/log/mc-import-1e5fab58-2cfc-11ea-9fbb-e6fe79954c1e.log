@@ -1,0 +1,123 @@
+Array
+(
+    [created] => 2020-01-02T01:06:34.118888+00:00
+    [id] => 1e5fab58-2cfc-11ea-9fbb-e6fe79954c1e
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Brooklyn Center
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => MN
+                    [street] => 4207 Lakeside Ave N Apt 132
+                    [street2] => 
+                    [title] => Donation Address
+                    [zip] => 55429-3824
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => visa
+            [check_number] => 
+            [client_proceeds] => 5
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Brooklyn Center
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => MN
+                            [street] => 4207 Lakeside Ave N Apt 132
+                            [street2] => 
+                            [title] => 
+                            [zip] => 55429-3824
+                        )
+
+                    [created] => 2018-12-31T18:02:52.424341+00:00
+                    [email] => pandebrueske@hotmail.com
+                    [firstname] => Patrick
+                    [lastname] => Brueske
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2020-01-02T01:06:33.566207+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-02T01:06:33.596957+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $5.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => a4be47e8-17f6-47bf-89e9-a1fe21b20a4a
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => Array
+                (
+                    [id] => 1fef50f2-2f6f-4c94-8cd1-c0d254d16f0a
+                    [name] => 1912 EOY Phase 1
+                )
+
+            [expiration_month] => 5
+            [expiration_year] => 2022
+            [external_tracking_id] => 62110708494
+            [final_date] => 2020-01-01T00:00:00+00:00
+            [frequency] => Once
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => d314b168-b887-471a-a104-d91703ee01ce
+            [last_four_digits] => 7076
+            [net_proceeds] => 5
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 17e868f3-503d-48fa-a711-dcbcd2aece7a
+            [recurring_count] => 
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => 
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => d314b168-b887-471a-a104-d91703ee01ce
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

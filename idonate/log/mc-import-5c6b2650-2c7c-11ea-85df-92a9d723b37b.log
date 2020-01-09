@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:52:02.631479+00:00
+    [id] => 5c6b2650-2c7c-11ea-85df-92a9d723b37b
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Kenmore
+                    [country] => US
+                    [country_code] => US
+                    [country_name] => United States
+                    [state] => WA
+                    [street] => 6238 NE 204th Pl
+                    [street2] => 
+                    [title] => 
+                    [zip] => 98028
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => master
+            [check_number] => 
+            [client_proceeds] => 50
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Kenmore
+                            [country] => US
+                            [country_code] => US
+                            [country_name] => United States
+                            [state] => WA
+                            [street] => 6238 NE 204th Pl
+                            [street2] => 
+                            [title] => 
+                            [zip] => 98028
+                        )
+
+                    [created] => 2018-12-01T06:13:58.433143+00:00
+                    [email] => Livealegacy@hotmail.com
+                    [firstname] => THOMAS
+                    [lastname] => KELLY
+                    [middlename] => 
+                    [phone] => 
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-12-01T06:13:58.712008+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:52:02.307975+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $50.00
+            [designation] => Array
+                (
+                    [code] => isbran
+                    [fund_id] => isbran
+                    [id] => 482bbdf9-8493-4119-b47c-75965d285dd0
+                    [title] => Israel (Tel Aviv) Branch
+                )
+
+            [designation_note] => 
+            [donor_id] => 1c3836bc-1d15-4ac6-bcac-a305ac7373ec
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 11
+            [expiration_year] => 2020
+            [external_tracking_id] => 62109215066
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => ca6075ea-6b7e-441b-b4be-ba151a7a743e
+            [last_four_digits] => 9559
+            [net_proceeds] => 50
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 232b93d3-7bea-4840-835c-6bcfda41d314
+            [recurring_count] => 14
+            [reference_code] => ap18e12hb3
+            [sale_price] => 
+            [schedule_id] => 4bfbf9fb-b9cb-40b2-ae65-90cb18eb11d9
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => ca6075ea-6b7e-441b-b4be-ba151a7a743e
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

@@ -1,0 +1,118 @@
+Array
+(
+    [created] => 2020-01-01T09:29:08.089361+00:00
+    [id] => 2920ab74-2c79-11ea-baba-f2e467587223
+    [payload] => Array
+        (
+            [additional_info] => 
+            [address] => Array
+                (
+                    [city] => Elizabeth
+                    [country] => 
+                    [country_code] => 
+                    [country_name] => 
+                    [state] => Colorado
+                    [street] => 5805 McCart Ranch Rd
+                    [street2] => 
+                    [title] => 
+                    [zip] => 80107
+                )
+
+            [advocacy_program_id] => 
+            [advocacy_program_name] => 
+            [advocacy_team_id] => 
+            [advocacy_team_name] => 
+            [advocate] => 
+            [advocate_id] => 
+            [advocate_name] => 
+            [campaign_id] => 
+            [campaign_title] => 
+            [card_type] => 
+            [check_number] => 
+            [client_proceeds] => 25
+            [contact] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Elizabeth
+                            [country] => 
+                            [country_code] => 
+                            [country_name] => 
+                            [state] => Colorado
+                            [street] => 5805 McCart Ranch Rd
+                            [street2] => 
+                            [title] => 
+                            [zip] => 80107
+                        )
+
+                    [created] => 2018-10-01T17:40:35.269074+00:00
+                    [email] => JFJ_DUPE000_margotd224@aol.com
+                    [firstname] => Margot 
+                    [lastname] => Duvall 
+                    [middlename] => 
+                    [phone] => 7203177227
+                    [timezone] => 
+                    [title] => 
+                    [updated] => 2018-10-01T17:40:35.269074+00:00
+                )
+
+            [corporate_matching_record] => 
+            [created] => 2020-01-01T09:29:07.929035+00:00
+            [custom_note_1] => 
+            [custom_note_2] => 
+            [custom_note_3] => 
+            [custom_note_4] => 
+            [custom_note_5] => 
+            [description] => Cash Donation: $25.00
+            [designation] => Array
+                (
+                    [code] => DEFAULT
+                    [fund_id] => DEFAULT
+                    [id] => d4c15680-8d55-4d98-b538-1aa1e1e57ef2
+                    [title] => Where needed most
+                )
+
+            [designation_note] => 
+            [donor_id] => 1ae12359-2977-4a48-949f-d15deb66b9fa
+            [donor_paid_fee] => 
+            [email_opt_in] => 
+            [embed] => 
+            [expiration_month] => 
+            [expiration_year] => 
+            [external_tracking_id] => 62109162928
+            [final_date] => 
+            [frequency] => Monthly
+            [gift] => 
+            [gift_extra] => 
+            [hide_name] => 
+            [id] => 72234d66-a44c-4c90-b4df-ec6961285867
+            [last_four_digits] => 
+            [net_proceeds] => 25
+            [organization_id] => bdf8150d-a701-4079-a797-69c5c4ff6535
+            [payment_gateway_id] => 017412cb-396c-4cd3-b281-07dee953506d
+            [payment_gateway_name] => Spreedly: AuthorizeNet
+            [payment_transaction_id] => 6ec9ba3f-b9fd-4113-9bb8-8d1b173163a7
+            [recurring_count] => 16
+            [reference_code] => 
+            [sale_price] => 
+            [schedule_id] => fd7ffa49-9775-4935-8e35-d0649beccb73
+            [sms_keyword] => 
+            [status] => complete
+            [subtype] => credit
+            [transaction_set_id] => 72234d66-a44c-4c90-b4df-ec6961285867
+            [tribute] => 
+            [type] => cash
+            [utm] => Array
+                (
+                    [campaign] => 
+                    [content] => 
+                    [medium] => 
+                    [source] => 
+                    [term] => 
+                )
+
+            [vendor_id] => 
+        )
+
+    [type] => transaction.completed
+)

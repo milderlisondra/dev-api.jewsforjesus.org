@@ -1,0 +1,197 @@
+<?php
+$action = "";
+$mc_api_key = "327bc696ee748bda14ccdd3feff9c64b-us10";
+$interest = array(); // Array to hold Mailchimp interests for the list to be used
+
+if(strtolower($_REQUEST['action']) == "subscribe" || strtolower($_POST['action']) == "subscribe" ){
+    $action = strtolower(trim($_REQUEST['action'])); 
+}
+
+if(isset( $_POST['subscriberFirstName'] ) ){
+    $fname = $_POST['subscriberFirstName'];
+}
+if(isset( $_POST['subscriberLastName'] ) ){
+    $lname = $_POST['subscriberLastName'];
+}
+
+if(isset( $_POST['subscriberHeritage'] ) ){
+    $jewish = $_POST['subscriberHeritage'];
+}
+if(isset( $_POST['subscriberFaith'] ) ){
+    $believer = $_POST['subscriberFaith'];
+}
+
+switch($action){
+    
+    case "subscribe":
+        notify($_POST);
+        extract($_REQUEST);
+        $faith = $believer;
+        $heritage = $jewish;
+        
+        switch( $mc_name ){
+            case "test":
+                $mc_list = "721b313ce4";
+                if(!empty($emailconsent)){
+                	$interest['4f0f4ba4c8'] = true;
+                }else{
+                	$interest['4f0f4ba4c8'] = false;
+                }
+                        
+                break;
+            case "us":
+                $mc_list = "5a70adfde6";
+                $interest['9fc8c5a8ab'] = true;
+                break;
+        }
+        
+    	if (empty($heritage) || $heritage == false || strtolower($heritage) == 'gentile' || strtolower($heritage) == 'no' ){
+    		if (empty($faith) || $faith == false || strtolower($faith) == 'no'){
+    			$ccode = 'UG';
+    		}else{
+    			$ccode = 'GB';
+    			$interest['07c37fbfaf'] = true;
+    			$interest['eea9b73e6a'] = true;
+    		}
+    	}else{
+    		if (empty($faith) || $faith == false || strtolower($faith) == 'no'){
+    			$ccode = 'UJ';
+    			$interest['393025b2aa'] = true;
+    		}else{
+    			$ccode = 'JB';
+    			$interest['07c37fbfaf'] = true;
+    			$interest['eea9b73e6a'] = true;
+    			$interest['157f62a803'] = true;
+    			$interest['393025b2aa'] = true;
+    		}
+    	}
+
+		//check for constituent type
+		//default to Individual
+		if(empty($ctype)){
+			$ctype = 'Individual';
+		}else{
+			if($ctype != 'Organization'){
+				$ctype = 'Individual';
+			}
+		}
+
+		if((!empty($address1)) and (!empty($city)) and (!empty($state)) and (!empty($zip)) and (!empty($country))){
+			//structure address
+			$address = array();
+			
+			$address['addr1'] = $address1;
+			
+			if(!empty($address2)){
+				$address['addr2'] = $address2;
+			}
+			
+			$address['city'] = $city;
+			$address['state'] = $state;
+			$address['zip'] = $zip;
+			$address['country'] = $country;
+		}
+
+		//structure merge fields
+		$merge_fields = array();
+
+		if(!empty($fname)){
+			$merge_fields['FNAME'] = $fname;
+		}
+		if(!empty($lname)){
+			$merge_fields['LNAME'] = $lname;
+		}
+		if(!empty($ctype)){
+			$merge_fields['CTYPE'] = $ctype;
+		}
+		if(!empty($phone)){
+			$merge_fields['PHONE'] = $phone;
+		}
+		if(!empty($language)){
+			$merge_fields['LANGUAGE'] = $language;
+		}
+		if(!empty($salutation)){
+			$merge_fields['SALUTATION'] = $salutation;
+		}
+		if(!empty($ccode)){
+			$merge_fields['CCODE'] = $ccode;
+		}
+		if(!empty($firstsourcecode)){
+			$merge_fields['1STSRCCODE'] = $firstsourcecode;
+		}
+		if(!empty($address)){
+			$merge_fields['ADDRESS'] = $address;
+		}
+		if(!empty($gdprdescription)){
+			$merge_fields['GDPRDESC'] = $gdprdescription;
+		}
+		if(!empty($gdprlegaltext)){
+			$merge_fields['GDPRLEGAL'] = $gdprlegaltext;
+		}
+		if(!empty($gdprterms)){
+			$merge_fields['GDPRPTERMS'] = $gdprterms;
+		}
+		if(!empty($gdprtermslink)){
+			$merge_fields['GDPRPPLINK'] = $gdprtermslink;
+		}
+		if(!empty($gdprprivacylink)){
+			$merge_fields['GDPRTLINK'] = $gdprprivacylink;
+		}
+
+		$merge_fields['GDPRUPDATE'] = date('Y-m-d');
+
+		if(!empty($page_id)){
+			$merge_fields['UBPAGEID'] = $page_id;
+			//only get date and variant if there's a page ID
+			$merge_fields['UBDATE'] = date('Y-m-d');
+			if(!empty($variant)){
+				$merge_fields['UBVARIANT'] = $variant;
+			}
+		}
+
+		$data = array();
+
+		$data['apikey'] = '327bc696ee748bda14ccdd3feff9c64b-us10';
+		$data['email_address'] = $email;
+		$data['status_if_new'] = 'subscribed';
+
+		if(!empty($merge_fields)){
+			$data['merge_fields'] = $merge_fields;
+		}
+
+		$data['interests'] = $interest;
+
+		if(!empty($ipaddress)){
+			$data['ip_opt'] = $ipaddress;
+		}
+
+		$jdata = json_encode($data);
+
+		mail("milder.lisondra@jewsforjesus.org", "data to be sent MC", $jdata);
+        
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://us10.api.mailchimp.com/3.0/lists/5a70adfde6/members/'.md5($email));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('content-type: application/json', 'Authorization: Basic '.base64_encode('user:327bc696ee748bda14ccdd3feff9c64b-us10')));
+        curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);  
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $jdata);
+        $curl_response = curl_exec($ch);
+        curl_close($ch);	
+       
+        mail("milder.lisondra@jewsforjesus.org","CURL Response",print_r($curl_response,true));
+        break;
+    case "update_subscribe":
+        notify($_REQUEST);
+        break;
+    
+}
+
+
+function notify($data){
+    extract($data);
+    mail("milder.lisondra@jewsforjesus.org","action from api for mc",print_r($data,true));
+}
+

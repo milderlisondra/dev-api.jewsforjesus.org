@@ -12,7 +12,7 @@ function iDonateAutoloader($className){
 $donation_hub = new DonateHub();
 $num_days_back = 10;
 if( isset($_POST['num']) && is_numeric($_POST['num']) && $_POST['num'] >= 10 ){
-	$num_days_back = $_POST['num'];
-	$result = $donation_hub->expunge($num_days_back);
-	print $result;	
+	$num_days_back = $_POST['num'];	
 }
+	$result = $donation_hub->expunge($num_days_back);
+	print $result;

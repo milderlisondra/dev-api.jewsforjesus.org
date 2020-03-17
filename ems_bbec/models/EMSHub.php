@@ -76,35 +76,36 @@ class EMSHub extends Database{
 		$country = '';		
 		
 		extract($data);
+		
+		if( $heritage == '' || $believer == ''){
+			$contact_code = 'Unknown';
+		}
+		if( strtolower($heritage) == 'no' && strtolower($believer) == 'yes' ){
+			$contact_code = 'GB';
+		}elseif( strtolower($heritage) == 'no' && strtolower($believer) == 'no'  ){
+			$contact_code = 'UG';
+		}elseif( strtolower($heritage) == 'yes' && strtolower($believer) == 'yes'  ){
+			$contact_code = 'JB';
+		}else{
+			$contact_code = 'UJ';
+		}
+		
 		$stmt = $this->conn->prepare("INSERT INTO `".$this->subscribers."` 
-			( emailaddress, 
-			firstname, 
-			lastname, 
-			heritage, 
-			believer, address1, address2,city_region,state_province, country) 
+			( EmailAddress, 
+			FirstName, 
+			LastName, 
+			ContactCode) 
 			VALUES (
-			:emailaddress, 
-			:firstname, 
-			:lastname, 
-			:heritage, 
-			:believer, 
-			:address1,
-			:address2,
-			:city_region,
-			:state_province,
-			:country)");
+			:EmailAddress, 
+			:FirstName, 
+			:LastName,
+			:ContactCode)");
 		
 		// Bind parameters
-		$stmt->bindValue(':emailaddress',$emailaddress, PDO::PARAM_STR);
-		$stmt->bindValue(':firstname',$firstname, PDO::PARAM_STR);
-		$stmt->bindValue(':lastname',$lastname, PDO::PARAM_STR);
-		$stmt->bindValue(':heritage',$heritage, PDO::PARAM_STR);
-		$stmt->bindValue(':believer',$believer, PDO::PARAM_STR);
-		$stmt->bindValue(':address1',$address1, PDO::PARAM_STR);
-		$stmt->bindValue(':address2',$address2, PDO::PARAM_STR);
-		$stmt->bindValue(':city_region',$city_region, PDO::PARAM_STR);
-		$stmt->bindValue(':state_province',$state_province, PDO::PARAM_STR);
-		$stmt->bindValue(':country',$country, PDO::PARAM_STR);
+		$stmt->bindValue(':EmailAddress',$emailaddress, PDO::PARAM_STR);
+		$stmt->bindValue(':FirstName',$firstname, PDO::PARAM_STR);
+		$stmt->bindValue(':LastName',$lastname, PDO::PARAM_STR);
+		$stmt->bindValue(':ContactCode',$contact_code, PDO::PARAM_STR);
 
 		
 		try{

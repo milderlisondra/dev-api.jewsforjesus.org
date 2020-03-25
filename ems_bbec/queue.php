@@ -16,7 +16,7 @@ $limit = 10;
 if( isset($_GET['limit']) && is_numeric($_GET['limit']) ){
 	$limit = $_GET['limit'];
 }
-$params = array('limit'=>$limit,'field'=>'ems_saved','field_value'=>'Pending');
+$params = array('limit'=>$limit,'field'=>'EMSSaved','field_value'=>'Pending');
 $result = $ems->get($params);
 
 if($result != 0){

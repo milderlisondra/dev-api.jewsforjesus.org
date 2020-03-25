@@ -13,6 +13,8 @@ class EMSHub extends Database{
 	protected $state_province = '';
 	protected $country = '';
 	
+
+	
 	public function __construct(){
 		$this->conn = parent::__construct(); // get db connection from Database model
 		$this->ts = date("Y-m-d H:i:s",time()); // set current timestamp
@@ -39,7 +41,7 @@ class EMSHub extends Database{
 		
 		$return_data = array();
 
-		$query = "SELECT * FROM `".$this->subscribers."` WHERE `ems_saved`='Pending' ORDER BY `created_datetime`" . $order . ' LIMIT ' . $limit;
+		$query = "SELECT * FROM `".$this->subscribers."` WHERE `EMSSaved`='Pending' ORDER BY `CreatedDatetime`" . $order . ' LIMIT ' . $limit;
 
 		$stmt = $this->conn->prepare($query);	
 		$stmt->execute();
@@ -75,6 +77,51 @@ class EMSHub extends Database{
 		$state_province = '';
 		$country = '';		
 		
+		$EmailAddress = '';
+		$FirstName = '';
+		$LastName = '';
+		$Language = '';
+		$JFJBranch = '';
+		$JFJStaffStatus = '';
+		$MissionaryCode = '';
+		$MissionaryAssignment = '';
+		$FirstSourceAppealCode = '';
+		$BBECSystemID = '';
+		$BBECLookupID = '';
+		$Tags = '';
+		$ContactCode = '';
+		$HouseholdFirstRecognitionAmount = '';
+		$JFJStaffRole = '';
+		$HouseholdLastRecognitionAmount = '';
+		$HouseholdLargestRecognitionAmount = '';
+		$LastDeputationDate = '';
+		$Address = ''; 
+		$State = ''; 
+		$Country = ''; 
+		$AddressLine1 = ''; 
+		$AddressLine2 = ''; 
+		$City = ''; 
+		$ZIP = '';
+		$LifetimeHouseholdRecognitionAmount = '';
+		$DaysSinceHouseholdFirstRecognition = '';
+		$DaysSinceHouseholdLastRecognition = '';
+		$DaysSinceLastInteraction = '';
+		$DaysSinceAddedtoBBEC = '';
+		$InteractionSummary = '';
+		$InteractionDate = '';
+		$DaysSinceHouseholdLargestRecognition = '';
+		$IsChurchContact = '';
+		$Salutation = '';
+		$UnbouncePageID = '';
+		$UnbouncePageVariant = '';
+		$UnbounceSubmissionDate = '';
+		$LifetimeHouseholdRecognitionCount = '';
+		$Age = '';
+		$Gender = '';
+		$DoyoubelieveinJesus = '';
+		$PhoneNumber = '';
+
+		
 		extract($data);
 		
 		if( $heritage == '' || $believer == ''){
@@ -91,22 +138,142 @@ class EMSHub extends Database{
 		}
 		
 		$stmt = $this->conn->prepare("INSERT INTO `".$this->subscribers."` 
-			( EmailAddress, 
-			FirstName, 
-			LastName, 
-			ContactCode) 
+			( 
+			EmailAddress,
+			FirstName,
+			LastName,
+			Language,
+			JFJBranch,
+			JFJStaffStatus,
+			MissionaryCode,
+			MissionaryAssignment,
+			FirstSourceAppealCode,	
+			BBECSystemID,
+			BBECLookupID,
+			Tags,
+			ContactCode,
+			HouseholdFirstRecognitionAmount,
+			JFJStaffRole,
+			HouseholdLastRecognitionAmount,
+			HouseholdLargestRecognitionAmount,
+			LastDeputationDate,
+			Address,
+			State,
+			Country,
+			AddressLine1,
+			AddressLine2,
+			City,
+			ZIP,
+			LifetimeHouseholdRecognitionAmount,
+			DaysSinceHouseholdFirstRecognition,
+			DaysSinceHouseholdLastRecognition,
+			DaysSinceLastInteraction,
+			DaysSinceAddedtoBBEC,
+			InteractionSummary,
+			InteractionDate,
+			DaysSinceHouseholdLargestRecognition,
+			IsChurchContact,
+			Salutation,
+			UnbouncePageID,
+			UnbouncePageVariant,
+			UnbounceSubmissionDate,
+			LifetimeHouseholdRecognitionCount,
+			Age,
+			Gender,
+			DoyoubelieveinJesus,
+			PhoneNumber,
+			DataSource) 
 			VALUES (
-			:EmailAddress, 
-			:FirstName, 
-			:LastName,
-			:ContactCode)");
+				:EmailAddress,
+				:FirstName,
+				:LastName,
+				:Language,
+				:JFJBranch,
+				:JFJStaffStatus,
+				:MissionaryCode,
+				:MissionaryAssignment,
+				:FirstSourceAppealCode,	
+				:BBECSystemID,
+				:BBECLookupID,
+				:Tags,
+				:ContactCode,
+				:HouseholdFirstRecognitionAmount,
+				:JFJStaffRole,
+				:HouseholdLastRecognitionAmount,
+				:HouseholdLargestRecognitionAmount,
+				:LastDeputationDate,
+				:Address,
+				:State,
+				:Country,
+				:AddressLine1,
+				:AddressLine2,
+				:City,
+				:ZIP,
+				:LifetimeHouseholdRecognitionAmount,
+				:DaysSinceHouseholdFirstRecognition,
+				:DaysSinceHouseholdLastRecognition,
+				:DaysSinceLastInteraction,
+				:DaysSinceAddedtoBBEC,
+				:InteractionSummary,
+				:InteractionDate,
+				:DaysSinceHouseholdLargestRecognition,
+				:IsChurchContact,
+				:Salutation,
+				:UnbouncePageID,
+				:UnbouncePageVariant,
+				:UnbounceSubmissionDate,
+				:LifetimeHouseholdRecognitionCount,
+				:Age,
+				:Gender,
+				:DoyoubelieveinJesus,
+				:PhoneNumber,
+				:DataSource)");
 		
 		// Bind parameters
-		$stmt->bindValue(':EmailAddress',$emailaddress, PDO::PARAM_STR);
-		$stmt->bindValue(':FirstName',$firstname, PDO::PARAM_STR);
-		$stmt->bindValue(':LastName',$lastname, PDO::PARAM_STR);
-		$stmt->bindValue(':ContactCode',$contact_code, PDO::PARAM_STR);
-
+		$stmt->bindValue(':EmailAddress',$EmailAddress, PDO::PARAM_STR);
+		$stmt->bindValue(':FirstName',$FirstName, PDO::PARAM_STR);
+		$stmt->bindValue(':LastName',$LastName, PDO::PARAM_STR);
+		$stmt->bindValue(':Language',$Language, PDO::PARAM_STR);
+		$stmt->bindValue(':JFJBranch',$JFJBranch, PDO::PARAM_STR);
+		$stmt->bindValue(':JFJStaffStatus',$JFJStaffStatus, PDO::PARAM_STR);
+		$stmt->bindValue(':MissionaryCode', $MissionaryCode, PDO::PARAM_STR);
+		$stmt->bindValue(':MissionaryAssignment', $MissionaryAssignment, PDO::PARAM_STR);
+		$stmt->bindValue(':FirstSourceAppealCode', $FirstSourceAppealCode, PDO::PARAM_STR);		
+		$stmt->bindValue(':BBECSystemID', $BBECSystemID, PDO::PARAM_STR);
+		$stmt->bindValue(':BBECLookupID', $BBECLookupID, PDO::PARAM_STR);
+		$stmt->bindValue(':Tags', $Tags, PDO::PARAM_STR);
+		$stmt->bindValue(':ContactCode', $ContactCode, PDO::PARAM_STR);
+		$stmt->bindValue(':HouseholdFirstRecognitionAmount', $HouseholdFirstRecognitionAmount, PDO::PARAM_STR);
+		$stmt->bindValue(':JFJStaffRole', $JFJStaffRole, PDO::PARAM_STR);
+		$stmt->bindValue(':HouseholdLastRecognitionAmount', $HouseholdLastRecognitionAmount, PDO::PARAM_STR);
+		$stmt->bindValue(':HouseholdLargestRecognitionAmount', $HouseholdLargestRecognitionAmount, PDO::PARAM_STR);
+		$stmt->bindValue(':LastDeputationDate', $LastDeputationDate, PDO::PARAM_STR);
+		$stmt->bindValue(':Address', $Address, PDO::PARAM_STR);
+		$stmt->bindValue(':State', $State, PDO::PARAM_STR);
+		$stmt->bindValue(':Country', $Country, PDO::PARAM_STR);
+		$stmt->bindValue(':AddressLine1', $AddressLine1, PDO::PARAM_STR);
+		$stmt->bindValue(':AddressLine2', $AddressLine2, PDO::PARAM_STR);
+		$stmt->bindValue(':City', $City, PDO::PARAM_STR);
+		$stmt->bindValue(':ZIP', $ZIP, PDO::PARAM_STR);
+		$stmt->bindValue(':LifetimeHouseholdRecognitionAmount', $LifetimeHouseholdRecognitionAmount, PDO::PARAM_STR);
+		$stmt->bindValue(':DaysSinceHouseholdFirstRecognition', $DaysSinceHouseholdFirstRecognition, PDO::PARAM_STR);
+		$stmt->bindValue(':DaysSinceHouseholdLastRecognition', $DaysSinceHouseholdLastRecognition, PDO::PARAM_STR);
+		$stmt->bindValue(':DaysSinceLastInteraction', $DaysSinceLastInteraction, PDO::PARAM_STR);
+		$stmt->bindValue(':DaysSinceAddedtoBBEC', $DaysSinceAddedtoBBEC, PDO::PARAM_STR);
+		$stmt->bindValue(':InteractionSummary', $InteractionSummary, PDO::PARAM_STR);
+		$stmt->bindValue(':InteractionDate', $InteractionDate, PDO::PARAM_STR);
+		$stmt->bindValue(':DaysSinceHouseholdLargestRecognition', $DaysSinceHouseholdLargestRecognition, PDO::PARAM_STR);
+		$stmt->bindValue(':IsChurchContact', $IsChurchContact, PDO::PARAM_STR);
+		$stmt->bindValue(':Salutation', $Salutation, PDO::PARAM_STR);
+		$stmt->bindValue(':UnbouncePageID', $UnbouncePageID, PDO::PARAM_STR);
+		$stmt->bindValue(':UnbouncePageVariant', $UnbouncePageVariant, PDO::PARAM_STR);
+		$stmt->bindValue(':UnbounceSubmissionDate', $UnbounceSubmissionDate, PDO::PARAM_STR);
+		$stmt->bindValue(':LifetimeHouseholdRecognitionCount', $LifetimeHouseholdRecognitionCount, PDO::PARAM_STR);
+		$stmt->bindValue(':Age', $Age, PDO::PARAM_STR);
+		$stmt->bindValue(':Gender', $Gender, PDO::PARAM_STR);
+		$stmt->bindValue(':DoyoubelieveinJesus', $DoyoubelieveinJesus, PDO::PARAM_STR);
+		$stmt->bindValue(':PhoneNumber', $PhoneNumber, PDO::PARAM_STR);
+		$stmt->bindValue(':DataSource', $DataSource, PDO::PARAM_STR);
 		
 		try{
 			if($stmt->execute()){

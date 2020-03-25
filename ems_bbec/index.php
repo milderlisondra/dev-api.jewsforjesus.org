@@ -17,7 +17,7 @@ $received = json_decode(file_get_contents('php://input'), true);
 
 
 extract($received);
-if(isset($emailaddress) && trim($emailaddress) != "" ){
+if(isset($EmailAddress) && trim($EmailAddress) != "" ){
 	if( $ems->save($received) != 0 ){
 		echo json_response(200, 'Contact Saved');
 	}else{

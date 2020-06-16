@@ -120,6 +120,7 @@ class EMSHub extends Database{
 		$Gender = '';
 		$DoyoubelieveinJesus = '';
 		$PhoneNumber = '';
+		$Subscription = '';
 
 		
 		extract($data);
@@ -135,6 +136,10 @@ class EMSHub extends Database{
 			$contact_code = 'JB';
 		}else{
 			$contact_code = 'UJ';
+		}
+		
+		if($Subscription[0] == ","){
+			$Subscription = substr($Subscription,1, strlen($Subscription));
 		}
 		
 		$stmt = $this->conn->prepare("INSERT INTO `".$this->subscribers."` 
@@ -182,6 +187,7 @@ class EMSHub extends Database{
 			Gender,
 			DoyoubelieveinJesus,
 			PhoneNumber,
+			Subscription,
 			DataSource) 
 			VALUES (
 				:EmailAddress,
@@ -227,6 +233,7 @@ class EMSHub extends Database{
 				:Gender,
 				:DoyoubelieveinJesus,
 				:PhoneNumber,
+				:Subscription,
 				:DataSource)");
 		
 		// Bind parameters
@@ -273,19 +280,21 @@ class EMSHub extends Database{
 		$stmt->bindValue(':Gender', $Gender, PDO::PARAM_STR);
 		$stmt->bindValue(':DoyoubelieveinJesus', $DoyoubelieveinJesus, PDO::PARAM_STR);
 		$stmt->bindValue(':PhoneNumber', $PhoneNumber, PDO::PARAM_STR);
+		$stmt->bindValue(':Subscription', $Subscription, PDO::PARAM_STR);
 		$stmt->bindValue(':DataSource', $DataSource, PDO::PARAM_STR);
 		
 		try{
 			if($stmt->execute()){
 				$rec_id = $this->conn->lastInsertId();
+				$this->log_action(array("action"=>"Add to Queue Successful","message"=>$rec_id)); 
 				return $rec_id;
 			}else{
+				$this->log_action(array("action"=>"Add to Queue Failed","message"=>print_r($data,true)));
 				return 0;
 			}
 		}catch( PDOException $e ){ // catch error and record in log file
 			$message = $e->getMessage();
-			$log_file_name = 'log/PDO-error' .  '-' . time() . '.log'; 
-			error_log($message, 3, $log_file_name);
+			$this->log_action(array("action"=>"PDO Error","message"=>$message)); 
 			return 0;
 		}
 		
@@ -297,19 +306,21 @@ class EMSHub extends Database{
 	* @param array $data ( id = id, field = field to be updated, field_value = value to be placed into given field )
 	* @return integer $return
 	*/
-	public function update($data){
+	public function update($data){ print_r($data);
 		extract($data);
-		$stmt = $this->conn->prepare("UPDATE `".$this->subscribers."` SET `".$field."`=:field_value WHERE `id`=:id");
-		$stmt->bindParam(':id',$id, PDO::PARAM_INT);
+		$stmt = $this->conn->prepare("UPDATE `".$this->subscribers."` SET `".$field."`=:field_value WHERE `ID`=:ID");
+		$stmt->bindParam(':ID',$ID, PDO::PARAM_INT);
 		$stmt->bindParam(':field_value', $field_value, PDO::PARAM_STR);
+
 		
 		try{
 			if($stmt->execute()){
 				if($stmt->rowCount() == 1){
-					//$this->log_action(array("action"=>"Queue Update","message"=>$table_id)); 
+					$this->log_action(array("action"=>"Queue Update","message"=>$ID)); 
 
 					if(isset($cm_response)){
-						$this->log_action(array("action"=>"Failure in EMS","message"=>print_r($cm_response,true)));
+						//$message = print_r($data);
+						$this->log_action(array("action"=>"Failure in EMS","message"=>print_r($data,true)));
 					}					
 					return true;
 				}else{
@@ -318,6 +329,7 @@ class EMSHub extends Database{
 				}
 			}else{ 
 				$message = 'Posted to BBEC successfully. But following QUEUE ID could not be sent to Done ' . $table_id;
+				print $message;
 				//$this->log_action(array("action"=>"Failed Transaction Update","message"=>$message));
 				return false; 
 			}
@@ -328,16 +340,47 @@ class EMSHub extends Database{
 				
 	}
 	
-	private function determine_publication($params){
+	/**
+	* get
+	* Retrieve transactions
+	* @param array/mixed @params
+	*
+	*/
+	public function get_bbec_queue( $params ){
+		extract($params);
+		$order = 'DESC';
+		$limit = 5;
+
+		if(isset($params['limit'])){
+			$limit = $params['limit'];
+		}
+		if(isset($params['order'])){
+			$order = $params['order'];
+		}		
+		
+		$return_data = array();
+
+		$query = "SELECT * FROM `".$this->subscribers."` WHERE `".$field."`='".$field_value."' AND `EMSSaved` = 'Pending' ORDER BY `CreatedDatetime`" . $order . ' LIMIT ' . $limit;
+
+		$stmt = $this->conn->prepare($query);	
+		$stmt->execute();
+
+			if($stmt->rowCount() > 0) {
+				while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
+				   $return_data[] = $result;
+				}
+				return $return_data;
+			}else{
+				return 0;
+			}
 		
 	}
+	
 	/**
 	* @param array $data (action,message)
 	*/
 	public function log_action($data){
 		parent::log_action($data);
 	}
-
-	
 	
 }

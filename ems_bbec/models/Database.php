@@ -12,8 +12,9 @@ class Database{
 
 		switch($server_identity){
 			case "localhost":
+			case "local.ems-bbec.com":
 				$this->db_host = 'localhost';
-				$this->db_name = 'subscribers';
+				$this->db_name = 'ems_bbec';
 				$this->db_user = 'root';
 				$this->db_pass = '';				
 				break;

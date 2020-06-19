@@ -306,7 +306,7 @@ class EMSHub extends Database{
 	* @param array $data ( id = id, field = field to be updated, field_value = value to be placed into given field )
 	* @return integer $return
 	*/
-	public function update($data){ print_r($data);
+	public function update($data){
 		extract($data);
 		$stmt = $this->conn->prepare("UPDATE `".$this->subscribers."` SET `".$field."`=:field_value WHERE `ID`=:ID");
 		$stmt->bindParam(':ID',$ID, PDO::PARAM_INT);
@@ -374,6 +374,16 @@ class EMSHub extends Database{
 				return 0;
 			}
 		
+	}
+	
+	/*
+	* Delete any records that have already been sent to EMS
+	*/
+	public function expunge(){
+		$query = "DELETE FROM `".$this->subscribers."` WHERE `EMSSaved`='Yes' LIMIT 100";
+		$stmt = $this->conn->prepare($query);
+		$count = $stmt->execute();
+		return $count;
 	}
 	
 	/**

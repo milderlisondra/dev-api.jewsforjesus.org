@@ -1,4 +1,5 @@
 <?php
+// main file
 error_reporting(E_ALL);
 
 spl_autoload_register('iDonateAutoloader');

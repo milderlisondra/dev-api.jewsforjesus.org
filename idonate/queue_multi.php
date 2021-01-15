@@ -30,12 +30,15 @@ $transactions = $idonate->get_by_param($params);
 // Map iDonate raw data to BBEC fields
 
 if( $transactions != 0 ){
-	
 
 		foreach( $transactions as $data){
 
 			extract($data);
-
+			
+			if($description == 'Offline Donation' ){
+				exit();
+			}
+			
 			print '<br/>';
 			if( $subtype == 'credit' ){
 				if( isset($expiration_month) && isset($expiration_year) ){

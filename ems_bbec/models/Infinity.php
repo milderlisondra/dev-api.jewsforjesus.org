@@ -134,7 +134,7 @@ class Infinity extends SoapClient {
 			$filterValues[] = $this->getStringFilter('ALTERNATELOOKUPIDTYPECODEID', $ALTERNATELOOKUPIDTYPECODEID);
 			$filterValues[] = $this->getStringFilter('MISSIONARYSTAFFID', '');		
 			$filterValues[] = $this->getStringFilter('CRITICALNOTES', '');
-			$filterValues[] = $this->getStringFilter('GENDERCODE', 'M');
+			//$filterValues[] = $this->getStringFilter('GENDERCODE', 'M');
 
 /*			
 $filterValues[] = $this->getStringFilter('COUNTRYID', $COUNTRYID);

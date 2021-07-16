@@ -1,5 +1,4 @@
 <?php
-// main file
 error_reporting(E_ALL);
 
 spl_autoload_register('iDonateAutoloader');
@@ -76,8 +75,8 @@ if( $result == 0 ){
 			
 			
 		// Setup contact information
-		$transaction['firstname'] = $contact['firstname'];
-		$transaction['lastname'] = $contact['lastname'];
+		$transaction['firstname'] = ucfirst(strtolower($contact['firstname']));
+		$transaction['lastname'] = ucfirst(strtolower($contact['lastname']));
 		$transaction['email'] = $contact['email'];
 		$transaction['middlename'] = $contact['middlename'];
 		$transaction['phone'] = $contact['phone'];
@@ -147,8 +146,6 @@ if( $result == 0 ){
 			$message .= $received_data_toarray; 
 			error_log($received_data_toarray, 3, $log_file_name);			
 		}
-
-
 	}
 
 }else{

@@ -1,10 +1,4 @@
 
 *.log
-*.log
-*.log
-*.log
-*.log
-idonate/log/mc-import-003323f0-2ca5-11ea-a064-223abfea833d.log
-idonate/log/mc-import-003323f0-2ca5-11ea-a064-223abfea833d.log
-idonate/log/mc-import-003323f0-2ca5-11ea-a064-223abfea833d.log
-idonate/log/mc-import-03b9a9b8-2282-11ea-9d83-de89dbfd598f.log
+idonate/log/*.log
+ems_bbec/vendor
